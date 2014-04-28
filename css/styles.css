@@ -1,0 +1,96 @@
+/* Set styles for body */
+body {
+	background-color: #000; 
+	color:#fff; 
+	font-family:arial; 
+	max-width:990px;
+	width: 100%;
+	padding: 2%;
+	position: relative;
+}
+
+/* Set styles for images containers */
+.containerA li, .containerB li{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	background: url('../images/characters-sprite.png') no-repeat;
+	width: 100px;
+	height: 152px;
+	margin-right: 20px;
+	background-color: #fff; 
+	padding: 2px 2px 20px 2px;
+	color: #000;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.containerA li
+{
+	opacity: 1;
+	border-radius: 4px;
+}
+.containerA:hover li {
+	opacity: 0.5;
+}
+.containerA li:hover
+{
+	opacity: 1;
+}
+.containerA li span, .containerB li span {
+	display: block;
+	position: relative;
+	top: 151px;
+	text-align: center;
+}
+
+/* Start showing the images from sprite */
+.stan {
+	background-position: 2px 4px !important;
+}
+
+.kyle {
+	background-position: -103px 4px !important;
+}
+.kenny {
+	background-position: -205px 4px !important;
+}
+.carftman {
+	background-position: -308px 4px !important;
+}
+.wendy {
+	background-position: -411px 4px !important;
+}
+.iky {
+	background-position: -515px 4px !important;
+}
+.tweek {
+	background-position: -617px 4px !important;
+}
+/* End of image sprites */
+
+.containerB, .containerA {
+	height: auto;
+	min-height: 200px;
+	border-bottom: 2px solid #ececec;
+	padding: 20px;
+	overflow: hidden;
+}
+
+/* Styles for action buttons save, reset */
+.actionRow {
+	float: right;
+	padding: 10px 0;
+
+}
+.actionRow input {
+	padding: 10px; 
+	height: 40px;
+	font-size: 1em;
+
+}
+
+.labelSuspect
+{
+	font-size: 13px;
+}

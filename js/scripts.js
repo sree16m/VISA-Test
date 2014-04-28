@@ -13,5 +13,9 @@ $(document).ready(function () {
 		
 	});
 	
-	/* TODO: Remove images from container B on Reset */
+	/* Remove images from container B on Reset */
+	$('#reset').click( function () {
+		$('#containerA li').show();
+		$('#containerB li').remove();
+	})
 });

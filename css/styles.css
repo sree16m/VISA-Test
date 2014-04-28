@@ -48,12 +48,11 @@ body {
 .stan {
 	background-position: 2px 4px !important;
 }
-
 .kyle {
-	background-position: -103px 4px !important;
+	background-position: -205px 4px !important;
 }
 .kenny {
-	background-position: -205px 4px !important;
+	background-position: -617px 4px !important;
 }
 .carftman {
 	background-position: -308px 4px !important;
@@ -65,7 +64,7 @@ body {
 	background-position: -515px 4px !important;
 }
 .tweek {
-	background-position: -617px 4px !important;
+	background-position: -103px 4px !important;
 }
 /* End of image sprites */
 

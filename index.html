@@ -6,8 +6,11 @@
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">	
 	<meta name="author" content="Srikanth">
 	<link rel="stylesheet" href="css/styles.css" />
+	<script src="js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
+	<h1>Who killed Kenny?</h1>
+	<p class="labelSuspect">Here are the suspects. Your job is to sort them from who you think is the most likely to the least likely, by clicking on the suspect.</p>
 	<!-- Container to show the images for selection -->
 	<div id="containerA" class="containerA">
 		<ul>
@@ -16,10 +19,17 @@
 				<li class="kenny"><span>kenny</span></li>
 				<li class="carftman"><span>carftman</span></li>
 				<li class="wendy"><span>wendy</span></li>
-				<li class="iky"><span>iky</span></li>
+				<li class="iky"><span>ike</span></li>
 				<li class="tweek"><span>tweek</span></li>
 		</ul>	
 	</div>
-	<!-- TODO: Container to show the selected images -->
+	<!-- Container to show the selected images -->
+	<div id="containerB" class="containerB">
+		<ul>
+		</ul>
+	</div>
+	<!--TODO: Container for action buttons Save, Reset -->
 </body>
+<!-- Logic to show selected image of container A in container B -->
+<script src="js/scripts.js"></script>
 </html>
